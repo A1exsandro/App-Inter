@@ -1,0 +1,25 @@
+{
+   "compilerOptions": {
+      "lib": [
+         "es5",
+         "es6"
+      ],
+      "target": "es5",
+      "module": "commonjs",
+      "moduleResolution": "node",
+      "outDir": "./build",
+      "rootDir": "./src" ,
+      "strict": true,
+      "forceConsistentCasingInFileNames": true,
+      "esModuleInterop": true,
+      "emitDecoratorMetadata": true,
+      "strictPropertyInitialization": false,
+      "experimentalDecorators": true,
+      "sourceMap": true,
+      "typeRoots": [
+         "./src/@types",
+         "./@types",
+         "./node_modules/@types"
+      ]
+   }
+}
